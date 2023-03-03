@@ -9,5 +9,9 @@ Recommender systems are algorithmic approaches to providing personalized recomme
 
 2) Collaborative filtering (CoFi): This approach recommends items/services based on the behavior or ratings of other users with similar preferences to the user. In this repository, examples of using CoFi in: 
 
-      MovieRatings_CoFi (MATLAB folder) 
+      MovieRatings_CoFi (MATLAB folder) : This uses a vectorized implementation of a simultaneously updated gradient descent with respect to users and features (using              the `cofiCostFunction.mat` function) to recommend movies from a 1682-item list based on the user's rating of a small subset of movies and ratings from 943                other users 
+      
+      
+      
+      
 
